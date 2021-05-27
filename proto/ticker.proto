@@ -1,0 +1,16 @@
+syntax = "proto3";
+package ticker;
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "github.com/theykk/golactic/proto/ticker;ticker";
+
+message Tick {
+  uint32 seq = 1;
+  string message = 2;
+  google.protobuf.Timestamp time = 3;
+}
+
+service Ticker {
+  rpc SendTicker(Tick) returns (Tick);
+}
