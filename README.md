@@ -1,51 +1,43 @@
+<center>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-  <a href="https://github.com/TheYkk/golactic">
-    <img src="img/logo.png" alt="Logo" width="150" height="150">
-  </a>
 
-  <h1 align="center">Golactic</h3>
+<a href="https://github.com/TheYkk/golactic">
+    <img src="https://raw.githubusercontent.com/TheYkk/golactic/main/img/logo.png" alt="Logo" width="150" height="150">
+</a>
 
-  <p align="center">
-    Ligthweight GO Microservice Boilerplate
-    <br />
-    <a href="https://github.com/TheYkk/golactic"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    ·
-    <a href="https://github.com/TheYkk/golactic/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/TheYkk/golactic/issues">Request Feature</a>
-  </p>
-</p>
+#Golactic
+
+
+Ligthweight GO Microservice Boilerplate
+
+[**Explore the docs »**](https://github.com/TheYkk/golactic)
+
+
+· [Report Bug](https://github.com/TheYkk/golactic/issues) · [Request Feature](https://github.com/TheYkk/golactic/issues)
+
+</center>
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* GO
-* gRPC
-
-<!-- ROADMAP -->
-## Dependencies
-
+* Go
 * zerolog
-* jaeger
-* grpc
-* docker
+* OpenTelemetry
+* gRPC
+* Docker
 * docker-compose
-* config ?
-* cli flag ?
-* .env
-* ci
-* code qualit
+* Yaml config Support
+* CLI 
+* ENV Support
+* GitHub Actions
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -61,13 +53,14 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Apache 2.0 License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
 ## Contact
 
 Kaan Karakaya - [@YkkCode](https://twitter.com/YkkCode)
+
 Murat Mirgün Ercan - [@muratmirgun](https://twitter.com/muratmirgun)
 
 Project Link: [Golactic](https://github.com/TheYkk/golactic)
@@ -84,4 +77,4 @@ Project Link: [Golactic](https://github.com/TheYkk/golactic)
 [issues-shield]: https://img.shields.io/github/issues/TheYkk/golactic.svg?style=for-the-badge
 [issues-url]: https://github.com/TheYkk/golactic/issues
 [license-shield]: https://img.shields.io/github/license/TheYkk/golactic.svg?style=for-the-badge
-[license-url]: https://github.com/TheYkk/golactic/blob/master/LICENSE.txt
+[license-url]: https://github.com/TheYkk/golactic/blob/master/LICENSE
