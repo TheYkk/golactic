@@ -23,7 +23,7 @@ jobs:
              dep ensure
           fi
     - name: Build Project
-      run: go build -v .
+      run: go build -v ./cmd/
     - name: Run Tests
       run: go test -v ./...
     - name: Get golangci-lint

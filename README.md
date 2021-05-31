@@ -1,4 +1,4 @@
-<center>
+<div style="text-align: center;">
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -14,7 +14,7 @@
     <img src="https://raw.githubusercontent.com/TheYkk/golactic/main/img/logo.png" alt="Logo" width="150" height="150">
 </a>
 
-#Golactic
+# Golactic
 
 
 Ligthweight GO Microservice Boilerplate
@@ -24,7 +24,7 @@ Ligthweight GO Microservice Boilerplate
 
 · [Report Bug](https://github.com/TheYkk/golactic/issues) · [Request Feature](https://github.com/TheYkk/golactic/issues)
 
-</center>
+</div>
 
 ### Built With
 
